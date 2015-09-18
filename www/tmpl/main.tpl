@@ -5,7 +5,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="%address%js/stepcarousel.js"></script>
         <link rel="stylesheet" href="%address%css/slider.css" type="text/css" />
-        <script type="text/javascript">            
+        <script type="text/javascript">
             stepcarousel.setup({
                 galleryid: 'mygallery', //id of carousel DIV
                 beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
@@ -40,6 +40,22 @@
                             <input type="submit" name="search" value="Искать" /> 
                         </p>
                     </form>
+                      
+                    <!--select region-->
+                    <form action="#" id="forma">
+                        <div id="container">
+                            <div id="divarea">
+                                <label>Регион:</label>
+                                <select id="areadropdown">                                    
+                                </select>
+                            </div>
+                            <div id="divcity">
+                                <label>Город:</label>
+                                <select id="citydropdown" disabled="disabled"></select>
+                            </div>
+                        </div>
+                    </form>
+                    <!--End select region-->
                     <h2>Меню</h2>
                     <ul>%menu%</ul>
                     %auth_user%                    

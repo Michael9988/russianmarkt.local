@@ -85,7 +85,7 @@ class DataBase {
         }
         $query = substr($query, 0, -1);
         if ($where) {
-            $query .= " WHERE $where";
+            $query .= "' WHERE $where";
             return $this->query($query);
         } else {
             return FALSE;
@@ -212,7 +212,7 @@ class DataBase {
             }
         }
         $results = $this->select($table_name, array("*"), $where);
-        if (!$results){
+        if (!$results) {
             return FALSE;
         }
         $k = 0;

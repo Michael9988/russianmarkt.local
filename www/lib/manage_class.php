@@ -84,7 +84,7 @@ class Manage {
         $id = $this->data["variant"];
         $variant = $this->poll_variant->get($id);
         $poll_id = $variant["poll_id"];
-        $result = $this->poll_variant->setVotes($id, $variant["votes"]++);         
+        $result = $this->poll_variant->setVotes($id, $variant["votes"]+1);         
         return $this->config->address . "?view=poll&id=$poll_id";
     }
 

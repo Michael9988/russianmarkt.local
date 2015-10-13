@@ -4,6 +4,7 @@
         <title>%title%</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="%address%js/stepcarousel.js"></script>
+        <script type="text/javascript" src="%address%js/valid.js"></script>
         <link rel="stylesheet" href="%address%css/slider.css" type="text/css" />
         <script type="text/javascript">
             stepcarousel.setup({
@@ -12,7 +13,7 @@
                 panelclass: 'panel', //class of panel DIVs each holding content
                 autostep: {enable: true, moveby: 1, pause: 3000},
                 panelbehavior: {speed: 500, wraparound: true, wrapbehavior: 'slide', persist: true},
-                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/left.png', -5, 95], rightnav: ['img/right.png', -20, 95]},
+                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/left.png', 25, 145], rightnav: ['img/right.png', -68, 145]},
                 statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
                 contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
             })
@@ -26,27 +27,34 @@
     <body>
         <div id="content">
             <div id="header">
-                <h2>Шапка сайта</h2>
+                <img src="%address%img/header.png" alt="Шапка" />
             </div>
-            <hr />
+            
             <div id="main_content">
                 <div id="left">
                     <form name="search" action="%address%" method="get">
+                        <h4>ПОИСК</h4>  
                         <p>
-                            Поиск: <input type="text" name="words" /> 
+                            <input type="text" name="words" />
                         </p>
                         <p>
                             <input type="hidden" name="view" value="search" />
                             <input type="submit" name="search" value="Искать" /> 
                         </p>
                     </form>
-                      
-                    <!--select region-->
+                    
                     <form action="#" id="forma">
                         <div id="container">
                             <div id="divarea">
                                 <label>Регион:</label>
-                                <select id="areadropdown">                                    
+                                <select id="areadropdown">
+                                    <option value="" >Выберите регион</option>
+                                    <?php
+                                    $array = mysql_query("SELECT * FROM lesson_areas");                            
+                                    while ($my = mysql_fetch_array($array)) {
+                                    echo "<option value=\"" . $my["id"] . "\">" . $my["area"] . "</option>";
+                                    }
+                                    ?>
                                 </select>
                             </div>
                             <div id="divcity">
@@ -55,15 +63,20 @@
                             </div>
                         </div>
                     </form>
-                    <!--End select region-->
+                    <!--
                     <h2>Меню</h2>
                     <ul>%menu%</ul>
-                    %auth_user%                    
-                </div>
-                <div id="right">                    
+                    %auth_user%   
+                    -->
+                </div>               
+                    
+                <div id="right">
+                    
                     <h2>Реклама</h2>
                     %banners%
+                    <!--
                     %poll%
+                    -->
                 </div>
                 <div id="center">
                     %top%

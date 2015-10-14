@@ -1,6 +1,12 @@
+@font-face{
+    font-family: OpenSans;
+    src: url(../fonts/open_sans.ttf);
+}
+
 body{
+    font-family: OpenSans;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 .clear{
@@ -41,14 +47,13 @@ body{
 }
 
 #left h4{
-  margin: 16px 5px;
-  font-size: 18px;
-  font-family: "Arial";
-  color: rgb(255, 255, 255);
-  font-weight: normal;
-  font-variant: small-caps;  
-  text-align: left;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.24);
+    margin: 16px 5px;
+    font-size: 18px;  
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-variant: small-caps;  
+    text-align: left;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.24);
 }
 
 #right{
@@ -58,13 +63,59 @@ body{
 }
 
 #center{
-    margin: 0 250px;
-    padding: 0 10px;
+    margin: 0 260px;
+    padding: 0 1px;
 }
 
 #center h1{
     margin: 0;
     text-align: center;
+}
+
+#topmenu{
+    background-color: #437c59; 
+    width: 500px;
+    height: 50px; 
+    margin: 0 -25px;
+    border-radius: 5px 5px 0 0;  
+}
+
+#topmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topmenu ul li{
+    float: left;   
+}
+
+#topmenu a{   
+    color: #ffffff;
+    display: inline-block;    
+    padding: 17px 10.5px;
+    text-decoration: none;    
+    font-size: 72%;
+}
+
+#topmenu a:hover{
+    background-color: #a3150e;  
+}
+
+#topmenu .masters{
+    color: #ffffff;
+    display: inline-block;    
+    padding: 12px 10px 7px 10px;
+    text-decoration: none;    
+    font-size: 71%;
+}
+
+#topmenu .about{
+    border-radius: 5px 0 0 0;  
+}
+
+#topmenu .contacts{
+    border-radius: 0 5px 0 0;  
 }
 
 hr{
@@ -104,5 +155,14 @@ hr{
 #message p{
     text-align: center;
 }
+
+#container p{
+    vertical-align: 3px;
+}
+
+#container select{
+    width: 173px;
+}
+
 
 

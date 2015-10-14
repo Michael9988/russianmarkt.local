@@ -13,7 +13,7 @@
                 panelclass: 'panel', //class of panel DIVs each holding content
                 autostep: {enable: true, moveby: 1, pause: 3000},
                 panelbehavior: {speed: 500, wraparound: true, wrapbehavior: 'slide', persist: true},
-                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/left.png', 25, 145], rightnav: ['img/right.png', -68, 145]},
+                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/left.png', 0, 125], rightnav: ['img/right.png', -43, 125]},
                 statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
                 contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
             })
@@ -29,49 +29,53 @@
             <div id="header">
                 <img src="%address%img/header.png" alt="Шапка" />
             </div>
-            
+
             <div id="main_content">
                 <div id="left">
                     <form name="search" action="%address%" method="get">
-                        <h4>ПОИСК</h4>  
+                        <h4>ПОИСК</h4>                        
                         <p>
+                            <label>Ищем</label>
                             <input type="text" name="words" />
                         </p>
+                        <div id="container">
+                            <div id="divarea">
+                                <label>Регион</label>                                
+                                <select id="areadropdown">
+                                    <option value="" ></option>                                        
+                                </select>                                
+                            </div>
+                            <br/>
+                            <div id="divcity">
+                                <label>Город</label>
+                                <select id="citydropdown" disabled="disabled"></select>                                
+                            </div>
+                            <br/>
+                            <div id="divcategory">
+                                <label>Категории</label>
+                                <select id="category"></select>                                
+                            </div>
+                            <br/>
+                            <div id="divproducts">
+                                <label>Каталог продукции</label>
+                                <select id="cproducts"></select>                                
+                            </div>
+                        </div>
                         <p>
                             <input type="hidden" name="view" value="search" />
                             <input type="submit" name="search" value="Искать" /> 
                         </p>
                     </form>
-                    
-                    <form action="#" id="forma">
-                        <div id="container">
-                            <div id="divarea">
-                                <label>Регион:</label>
-                                <select id="areadropdown">
-                                    <option value="" >Выберите регион</option>
-                                    <?php
-                                    $array = mysql_query("SELECT * FROM lesson_areas");                            
-                                    while ($my = mysql_fetch_array($array)) {
-                                    echo "<option value=\"" . $my["id"] . "\">" . $my["area"] . "</option>";
-                                    }
-                                    ?>
-                                </select>
-                            </div>
-                            <div id="divcity">
-                                <label>Город:</label>
-                                <select id="citydropdown" disabled="disabled"></select>
-                            </div>
-                        </div>
-                    </form>
+
                     <!--
                     <h2>Меню</h2>
                     <ul>%menu%</ul>
                     %auth_user%   
                     -->
                 </div>               
-                    
+
                 <div id="right">
-                    
+
                     <h2>Реклама</h2>
                     %banners%
                     <!--

@@ -13,7 +13,7 @@
                 panelclass: 'panel', //class of panel DIVs each holding content
                 autostep: {enable: true, moveby: 1, pause: 3000},
                 panelbehavior: {speed: 500, wraparound: true, wrapbehavior: 'slide', persist: true},
-                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/left.png', 0, 125], rightnav: ['img/right.png', -43, 125]},
+                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/green_left.png', 0, 125], rightnav: ['img/green_right.png', -43, 125]},
                 statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
                 contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
             })
@@ -28,6 +28,16 @@
         <div id="content">
             <div id="header">
                 <img src="%address%img/header.png" alt="Шапка" />
+                <div class="authorization">
+                    <ul>
+                        <li>
+                            <a class="auth" href="#">Вход</a>
+                        </li>
+                        <li>
+                            <a class="reg" href="#">Регистрация</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div id="main_content">
@@ -36,34 +46,44 @@
                         <h4>ПОИСК</h4>                        
                         <p>
                             <label>Ищем</label>
-                            <input type="text" name="words" />
+                            <input class="words" type="text" name="words" />
                         </p>
                         <div id="container">
                             <div id="divarea">
-                                <label>Регион</label>                                
-                                <select id="areadropdown">
-                                    <option value="" ></option>                                        
-                                </select>                                
+                                <label>Регион</label>
+                                <div class="new-select-style">
+                                    <select id="areadropdown">
+                                        <option value="" ></option>                                        
+                                    </select>
+                                </div>
                             </div>
-                            <br/>
+
                             <div id="divcity">
                                 <label>Город</label>
-                                <select id="citydropdown" disabled="disabled"></select>                                
+                                <div class="new-select-style">
+                                    <select id="citydropdown" disabled="disabled"></select> 
+                                </div>
                             </div>
-                            <br/>
+
                             <div id="divcategory">
                                 <label>Категории</label>
-                                <select id="category"></select>                                
+                                <div class="new-select-style">
+                                    <select id="category"></select>
+                                </div>
                             </div>
-                            <br/>
+
                             <div id="divproducts">
                                 <label>Каталог продукции</label>
-                                <select id="cproducts"></select>                                
+                                <div class="new-select-style">
+                                    <select id="cproducts"></select>
+                                </div>
                             </div>
                         </div>
                         <p>
                             <input type="hidden" name="view" value="search" />
-                            <input type="submit" name="search" value="Искать" /> 
+                        <div class="new-button-style">
+                            <input type="submit" name="search" value="" />
+                        </div>
                         </p>
                     </form>
 

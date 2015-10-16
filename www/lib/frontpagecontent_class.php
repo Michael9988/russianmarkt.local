@@ -15,17 +15,17 @@ class FrontPageContent extends Modules {
 
     protected function getTitle() {
         if ($this->page > 1)
-            return "Справочник по PHP - Страница " . $this->page;
+            return "О проекте - Страница " . $this->page;
         else
-            return "Справочник по PHP";
+            return "О проекте";
     }
 
     protected function getDescription() {
-        return "Справочник функций по PHP.";
+        return "О проекте";
     }
 
     protected function getKeyWords() {
-        return "справочник php, справочник php функций";
+        return "russian markt, производители, мастера, дизайнеры";
     }
 
     protected function getTop() {

@@ -38,7 +38,7 @@ body{
 #left, #right{
     min-height: 500px;
     padding: 0 10px;
-    width: 190px;
+    width: 205px;
 }
 
 #left{
@@ -62,21 +62,49 @@ body{
     float: right;
 }
 
-#center{
-    margin: 0 260px;
-    padding: 0 1px;
+#right table{
+    margin: -15px auto;
 }
 
-#center h1{
+#right .vk{
+    background: url(../img/vk.png) no-repeat;
+    display: block;
+    margin: 25px auto;
+    height: 37px;
+    width: 37px; 
+}
+
+#right .fb{
+    background: url(../img/fb.png) no-repeat;
+    display: block;
+    margin: 25px auto;
+    height: 37px;
+    width: 37px; 
+}
+
+#right .mailru{
+    background: url(../img/mailru.png) no-repeat;
+    display: block;
+    margin: 25px auto;
+    height: 37px;
+    width: 83px; 
+}
+
+#center{
+   // margin: 0 260px;
+    padding: 0 1px;    
+}
+
+/*#center h1{
     margin: 0;
     text-align: center;
-}
+}*/
 
 #topmenu{
     background-color: #437c59; 
     width: 500px;
     height: 50px; 
-    margin: 0 -25px;
+    margin: 0 224px;
     border-radius: 5px 5px 0 0;  
 }
 
@@ -116,6 +144,12 @@ body{
 
 #topmenu .contacts{
     border-radius: 0 5px 0 0;  
+}
+
+#center h1{    
+    color: #437c59;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 hr{

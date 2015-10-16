@@ -76,7 +76,19 @@
 
                 <div id="right">
 
-                    <h2>Реклама</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <a class="vk" href="#"></a>
+                            </td>
+                            <td>
+                                <a class="fb" href="#"></a>
+                            </td>
+                            <td>
+                                <a class="mailru" href="#"></a>
+                            </td>
+                        </tr>
+                    </table>
                     %banners%
                     <!--
                     %poll%
@@ -84,9 +96,14 @@
                 </div>
                 <div id="center">
                     %top%
+                    <!--
                     %middle%
-                    %bottom%                    
-                </div>
+                    %bottom%
+                    -->
+                </div><!--
+                <div id="texts">
+                    
+                </div>-->
                 <div class="clear">
                     <hr />
                     <div id="footer">

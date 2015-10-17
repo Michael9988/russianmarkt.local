@@ -4,8 +4,10 @@
         <title>%title%</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="%address%js/stepcarousel.js"></script>
+        <script type="text/javascript" src="%address%js/jquery.easydropdown.js"></script>
         <script type="text/javascript" src="%address%js/valid.js"></script>
         <link rel="stylesheet" href="%address%css/slider.css" type="text/css" />
+        <link rel="stylesheet" href="%address%css/easydropdown.css" type="text/css" />
         <script type="text/javascript">
             stepcarousel.setup({
                 galleryid: 'mygallery', //id of carousel DIV
@@ -50,33 +52,30 @@
                         </p>
                         <div id="container">
                             <div id="divarea">
-                                <label>Регион</label>
-                                <div class="new-select-style">
-                                    <select id="areadropdown">
-                                        <option value="" ></option>                                        
+                                <label>Регион</label>                                
+                                    <select id="areadropdown" class="dropdown" >
+                                        <option value="" class="label"></option>                                        
                                     </select>
-                                </div>
+                                
                             </div>
-
                             <div id="divcity">
-                                <label>Город</label>
-                                <div class="new-select-style">
-                                    <select id="citydropdown" disabled="disabled"></select> 
-                                </div>
+                                <label>Город</label>                                
+                                <select id="citydropdown" class="dropdown" disabled="disabled">
+                                    <option value="" class="label"></option>
+                                </select> 
                             </div>
-
                             <div id="divcategory">
                                 <label>Категории</label>
-                                <div class="new-select-style">
-                                    <select id="category"></select>
-                                </div>
+                                <select id="category" class="dropdown">
+                                     <option value="" class="label"></option> 
+                                </select>
                             </div>
 
                             <div id="divproducts">
                                 <label>Каталог продукции</label>
-                                <div class="new-select-style">
-                                    <select id="cproducts"></select>
-                                </div>
+                                <select id="cproducts" class="dropdown">
+                                     <option value="" class="label"></option> 
+                                </select>
                             </div>
                         </div>
                         <p>

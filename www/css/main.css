@@ -13,6 +13,10 @@ body{
     clear: both;
 }
 
+.clear hr{
+    width: 980px;
+}
+
 .right{
     text-align: right;
 }
@@ -77,13 +81,10 @@ body{
     border-radius: 0 5px 5px 0;  
 }
 
-
-#left, #right{
-    padding: 0 10px;
-    width: 205px;
-}
-
 #left{
+    padding: 0 10px;
+    margin: 0 10px 0 0;
+    width: 183px;
     min-height: 350px;
     background: url(../img/search.png) no-repeat;
     float: left;
@@ -110,34 +111,6 @@ body{
 #left label{
     font-size: 84%;
     color: #7a7a7a;
-}
-
-#container .new-select-style{      
-    overflow: hidden;
-    height: 32px;
-    background: url(../img/selector.png);   
-    width: 177px;
-    margin: 0 0 3px 0;
-}
-
-#container .new-select-style:hover{      
-    overflow: hidden;
-    height: 32px;
-    background: url(../img/selector_hover.png);   
-    width: 177px;
-    margin: 0 0 3px 0;
-}
-
-#container .new-select-style select{
-    border-radius: 0;
-    background: transparent;
-    width: 197px;
-    height: 32px;
-    padding: 0;
-    border: 0;
-    font-size: 16px;
-    line-height: 1;
-    -webkit-appearance: none;
 }
 
 #left .new-button-style input{
@@ -169,6 +142,8 @@ body{
 }
 
 #right{
+    padding: 0 10px;
+    width: 180px;
     min-height: 500px;
     background-color: #f0f1f2;
     border-radius: 5px 5px 5px 5px;
@@ -215,9 +190,9 @@ body{
 
 #topmenu{
     background-color: #437c59; 
-    width: 500px;
+    width: 550px;
     height: 50px; 
-    margin: 0 224px;
+    margin: 0 212px;
     border-radius: 5px 5px 0 0;  
 }
 
@@ -263,6 +238,7 @@ body{
     color: #437c59;
     font-size: 150%;
     font-weight: bold;
+    margin: 74px 0 0 0;
 }
 
 hr{
@@ -275,8 +251,15 @@ hr{
     width: 150px;
 }
 
-#footer p{
-    text-align: center;
+#footer{
+    width: 100%; 
+    height: 30px; 
+    text-align: right;
+    margin: 15px 5px;
+}
+
+#footer span{   
+    font-size: 89%;
 }
 
 #pagination p{
@@ -311,5 +294,32 @@ hr{
     width: 173px;
 }
 
+#text {
+    width: 765px;
+    text-align: justify;
+}
+
+#text img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px 15px 5px 0;
+    border-radius: 5px;
+    border: 1px solid #437c59;
+}
+
+#text table tr td img {
+    float: left;
+    width: 237px;
+    height: 44px;
+    margin: 5px 15px 5px 0;
+    border-radius: 5px;
+    border: 1px solid #437c59;
+}
+
+#text table{
+    margin-left: 10px; 
+    margin-bottom: 100px;
+}
 
 

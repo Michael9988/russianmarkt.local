@@ -53,10 +53,10 @@
                         <div id="container">
                             <div id="divarea">
                                 <label>Регион</label>                                
-                                    <select id="areadropdown" class="dropdown" >
-                                        <option value="" class="label"></option>                                        
-                                    </select>
-                                
+                                <select id="areadropdown" class="dropdown" >
+                                    <option value="" class="label"></option>                                        
+                                </select>
+
                             </div>
                             <div id="divcity">
                                 <label>Город</label>                                
@@ -67,14 +67,14 @@
                             <div id="divcategory">
                                 <label>Категории</label>
                                 <select id="category" class="dropdown">
-                                     <option value="" class="label"></option> 
+                                    <option value="" class="label"></option> 
                                 </select>
                             </div>
 
                             <div id="divproducts">
                                 <label>Каталог продукции</label>
                                 <select id="cproducts" class="dropdown">
-                                     <option value="" class="label"></option> 
+                                    <option value="" class="label"></option> 
                                 </select>
                             </div>
                         </div>
@@ -119,14 +119,12 @@
                     %middle%
                     %bottom%
                     -->
-                </div><!--
-                <div id="texts">
-                    
-                </div>-->
+                </div>
                 <div class="clear">
                     <hr />
                     <div id="footer">
-                        <p>Все права защищены &copy; 2015</p>
+                        <span style="float: left">Russian markt (c) 2015</span>
+                        <span>Разработано в WebJust</span> 
                     </div>
                 </div>
             </div>

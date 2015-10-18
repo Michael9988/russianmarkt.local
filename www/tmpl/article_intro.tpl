@@ -1,3 +1,4 @@
+<!--
 <hr />
 <div class="article">
     <h1>%title%</h1>
@@ -8,3 +9,4 @@
         <a href="%link_article%">Подробнее</a>
     </p>
 </div>
+-->

@@ -5,13 +5,13 @@
         <tr>
             <td>Логин:</td>
             <td>
-                <input type="text" name="login" />
+                <input type="text" id="login" name="login" />
             </td>
         </tr>
         <tr>
             <td>Пароль:</td>
             <td>
-                <input type="password" name="password" />
+                <input type="password" id="password" name="password" />
             </td>
         </tr>
         <tr>

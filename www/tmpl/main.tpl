@@ -6,8 +6,11 @@
         <script type="text/javascript" src="%address%js/stepcarousel.js"></script>
         <script type="text/javascript" src="%address%js/jquery.easydropdown.js"></script>
         <script type="text/javascript" src="%address%js/valid.js"></script>
+
         <link rel="stylesheet" href="%address%css/slider.css" type="text/css" />
         <link rel="stylesheet" href="%address%css/easydropdown.css" type="text/css" />
+        <link rel="stylesheet" href="%address%css/modal.css" type="text/css" />
+
         <script type="text/javascript">
             stepcarousel.setup({
                 galleryid: 'mygallery', //id of carousel DIV
@@ -26,20 +29,28 @@
         <meta name="keywords" content="%meta_key%" />
         <link rel="stylesheet" href="%address%css/main.css" type="text/css" />
     </head>
-    <body>
+    <body> 
         <div id="content">
             <div id="header">
                 <img src="%address%img/header.png" alt="Шапка" />
-                <div class="authorization">
+                <div id="authorization">
                     <ul>
                         <li>
-                            <a class="auth" href="#">Вход</a>
+                            <a class="auth" href="#login_form">Вход</a>
                         </li>
                         <li>
-                            <a class="reg" href="#">Регистрация</a>
+                            <a class="reg" href="%address%?view=reg">Регистрация</a>
                         </li>
                     </ul>
                 </div>
+            </div>
+
+            <!-- hidden inline form -->
+
+            <a href="#x" class="overlay" id="login_form"></a>
+            <div class="popup">
+                %auth_user%
+                <a class="close" href="#close"></a>
             </div>
 
             <div id="main_content">
@@ -56,7 +67,6 @@
                                 <select id="areadropdown" class="dropdown" >
                                     <option value="" class="label"></option>                                        
                                 </select>
-
                             </div>
                             <div id="divcity">
                                 <label>Город</label>                                
@@ -70,7 +80,6 @@
                                     <option value="" class="label"></option> 
                                 </select>
                             </div>
-
                             <div id="divproducts">
                                 <label>Каталог продукции</label>
                                 <select id="cproducts" class="dropdown">
@@ -87,9 +96,7 @@
                     </form>
 
                     <!--
-                    <h2>Меню</h2>
-                    <ul>%menu%</ul>
-                    %auth_user%   
+                    <ul>%menu%</ul>   
                     -->
                 </div>               
 
@@ -114,9 +121,28 @@
                     -->
                 </div>
                 <div id="center">
+                    <div id="topmenu">
+                        <ul>
+                            <li>
+                                <a class="about" href="%address%">О проекте</a>
+                            </li>
+                            <li>
+                                <a href="#">Список производителей</a>
+                            </li>
+                            <li>
+                                <a class="masters" href="#">Список мастеров<br/>и дизайнеров</a>
+                            </li>
+                            <li>
+                                <a href="#">Журнал</a>
+                            </li>
+                            <li>
+                                <a class="contacts" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
                     %top%
-                    <!--
                     %middle%
+                    <!--
                     %bottom%
                     -->
                 </div>

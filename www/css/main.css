@@ -1,12 +1,10 @@
-@font-face{
-    font-family: OpenSans;
-    src: url(../fonts/open_sans.ttf);
-}
-
 body{
-    font-family: OpenSans;
-    margin: 0;
-    padding: 0;    
+    margin:0;
+    padding:0;
+    font-size:13px;
+    font-family:'arial','helvetica neue','nimbus sans l','freesans',sans-serif;
+    color:#437c59;
+    background:no-repeat 100% 0;
 }
 
 .clear{
@@ -64,7 +62,7 @@ body{
     color: #ffffff;
     display: inline-block;       
     text-decoration: none;    
-    font-size: 72%;
+    font-size: 81%;
 }
 
 #authorization a:hover{
@@ -72,12 +70,12 @@ body{
 }
 
 #authorization .auth{
-    padding: 8px 23px 8px 25px;
+    padding: 10px 23px 9px 25px;
     border-radius: 5px 0 0 5px;  
 }
 
 #authorization .reg{
-    padding: 8px 25px 8px 23px;
+    padding: 10px 25px 9px 37px;
     border-radius: 0 5px 5px 0;  
 }
 
@@ -85,9 +83,10 @@ body{
     padding: 0 10px;
     margin: 0 10px 0 0;
     width: 183px;
-    min-height: 350px;
+    min-height: 371px;
     background: url(../img/search.png) no-repeat;
     float: left;
+    border-radius: 0 0 5px 5px;
 }
 
 #left h4{
@@ -179,14 +178,10 @@ body{
 }
 
 #center{
-    // margin: 0 260px;
+    
     padding: 0 1px;    
 }
 
-/*#center h1{
-    margin: 0;
-    text-align: center;
-}*/
 
 #topmenu{
     background-color: #437c59; 
@@ -209,9 +204,9 @@ body{
 #topmenu a{   
     color: #ffffff;
     display: inline-block;    
-    padding: 17px 10.5px;
+    padding: 17px 21.5px;
     text-decoration: none;    
-    font-size: 71%;
+    font-size: 88%;
 }
 
 #topmenu a:hover{
@@ -223,7 +218,7 @@ body{
     display: inline-block;    
     padding: 12px 10px 7px 10px;
     text-decoration: none;    
-    font-size: 71%;
+    font-size: 88%;
 }
 
 #topmenu .about{
@@ -238,7 +233,7 @@ body{
     color: #437c59;
     font-size: 150%;
     font-weight: bold;
-    margin: 74px 0 0 0;
+    margin: 55px 0 0 0;
 }
 
 hr{
@@ -260,6 +255,7 @@ hr{
 
 #footer span{   
     font-size: 89%;
+    color: #000;
 }
 
 #pagination p{
@@ -297,6 +293,14 @@ hr{
 #text {
     width: 765px;
     text-align: justify;
+}
+
+#text p{
+    color: #000;
+}
+
+#text h2{
+    color: #000;
 }
 
 #text img {

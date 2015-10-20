@@ -46,7 +46,6 @@
 </div>               
 
 <div id="right">
-
     <table>
         <tr>
             <td>
@@ -89,21 +88,28 @@
 
     <div id="mygallery" class="stepcarousel">
         <div class="belt">
-
             <div class="panel">
                 <img src="img/products/1.jpg" />
+                <span class="title">ЗАГОЛОВОК</span>
+                <span class="articl">Сопровождающий текст</span>
             </div>
 
             <div class="panel">
                 <img src="img/products/2.jpg" />
+                <span class="title">ЗАГОЛОВОК</span>
+                <span class="articl">Сопровождающий текст</span>
             </div>
 
             <div class="panel">
                 <img src="img/products/3.jpg" />
+                <span class="title">ЗАГОЛОВОК</span>
+                <span class="articl">Сопровождающий текст</span>
             </div>
 
             <div class="panel">
                 <img src="img/products/4.jpg" />
+                <span class="title">ЗАГОЛОВОК</span>
+                <span class="articl">Сопровождающий текст</span>
             </div>
 
         </div>

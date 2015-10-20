@@ -56,4 +56,20 @@ span.paginatecircle.selected{
     margin-left: 660px;
 }
 
+.panel span{
+    position: relative;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.24);
+}
 
+.title{    
+    font-weight: bold;    
+    top: -65px;
+    left: 20px;
+}
+
+.articl{
+    top: -43px;
+    left: -82px;
+}

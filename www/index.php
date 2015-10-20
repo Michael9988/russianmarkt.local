@@ -10,6 +10,7 @@ require_once "lib/messagecontent_class.php";
 require_once "lib/searchcontent_class.php";
 require_once "lib/notfoundcontent_class.php";
 require_once "lib/pollcontent_class.php";
+require_once "lib/brandscontent_class.php";
 
 $db = new DataBase();
 $view = $_GET["view"];
@@ -34,6 +35,9 @@ switch ($view) {
         break;
     case "poll":
         $content = new PollContent($db);
+        break;
+    case "brands":
+        $content = new BrandsContent($db);
         break;
     default: $content = new NotFoundContent($db);
 }

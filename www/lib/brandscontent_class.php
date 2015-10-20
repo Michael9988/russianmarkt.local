@@ -21,7 +21,7 @@ class BrandsContent extends Modules {
         return "russian markt, производители, список производителей";
     }
 
-    protected function getTop() {
+    protected function getMiddle() {
         return $this->getTemplate("brandlist_content");
     }
 

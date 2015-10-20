@@ -7,6 +7,7 @@
         <script type="text/javascript" src="%address%js/jquery.easydropdown.js"></script>
         <script type="text/javascript" src="%address%js/valid.js"></script>
 
+        <link rel="stylesheet" href="%address%css/brand.aspx.min.css" type="text/css" />
         <link rel="stylesheet" href="%address%css/slider.css" type="text/css" />
         <link rel="stylesheet" href="%address%css/easydropdown.css" type="text/css" />
         <link rel="stylesheet" href="%address%css/modal.css" type="text/css" />
@@ -54,98 +55,8 @@
             </div>
 
             <div id="main_content">
-                <div id="left">
-                    <form name="search" action="%address%" method="get">
-                        <h4>ПОИСК</h4>                        
-                        <p>
-                            <label>Ищем</label>
-                            <input class="words" type="text" name="words" />
-                        </p>
-                        <div id="container">
-                            <div id="divarea">
-                                <label>Регион</label>                                
-                                <select id="areadropdown" class="dropdown" >
-                                    <option value="" class="label"></option>                                        
-                                </select>
-                            </div>
-                            <div id="divcity">
-                                <label>Город</label>                                
-                                <select id="citydropdown" class="dropdown" disabled="disabled">
-                                    <option value="" class="label"></option>
-                                </select> 
-                            </div>
-                            <div id="divcategory">
-                                <label>Категории</label>
-                                <select id="category" class="dropdown">
-                                    <option value="" class="label"></option> 
-                                </select>
-                            </div>
-                            <div id="divproducts">
-                                <label>Каталог продукции</label>
-                                <select id="cproducts" class="dropdown">
-                                    <option value="" class="label"></option> 
-                                </select>
-                            </div>
-                        </div>
-                        <p>
-                            <input type="hidden" name="view" value="search" />
-                        <div class="new-button-style">
-                            <input type="submit" name="search" value="" />
-                        </div>
-                        </p>
-                    </form>
-
-                    <!--
-                    <ul>%menu%</ul>   
-                    -->
-                </div>               
-
-                <div id="right">
-
-                    <table>
-                        <tr>
-                            <td>
-                                <a class="vk" href="#"></a>
-                            </td>
-                            <td>
-                                <a class="fb" href="#"></a>
-                            </td>
-                            <td>
-                                <a class="mailru" href="#"></a>
-                            </td>
-                        </tr>
-                    </table>
-                    %banners%
-                    <!--
-                    %poll%
-                    -->
-                </div>
-                <div id="center">
-                    <div id="topmenu">
-                        <ul>
-                            <li>
-                                <a class="about" href="%address%">О проекте</a>
-                            </li>
-                            <li>
-                                <a href="#">Список производителей</a>
-                            </li>
-                            <li>
-                                <a class="masters" href="#">Список мастеров<br/>и дизайнеров</a>
-                            </li>
-                            <li>
-                                <a href="#">Журнал</a>
-                            </li>
-                            <li>
-                                <a class="contacts" href="#">Контакты</a>
-                            </li>
-                        </ul>
-                    </div>
-                    %top%
-                    %middle%
-                    <!--
-                    %bottom%
-                    -->
-                </div>
+                %top%                
+                %middle%
                 <div class="clear">
                     <hr />
                     <div id="footer">

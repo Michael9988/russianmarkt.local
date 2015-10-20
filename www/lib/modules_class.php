@@ -55,9 +55,9 @@ abstract class Modules {
         $sr["meta_key"] = $this->getKeyWords();
         $sr["menu"] = $this->getMenu();
         $sr["auth_user"] = $this->getAuthUser();
-        $sr["banners"] = $this->getBanners();
         $sr["top"] = $this->getTop();
         $sr["middle"] = $this->getMiddle();
+        $sr["banners"] = $this->getBanners();
         $sr["bottom"] = $this->getBottom();
         $sr["poll"] = $this->getPoll();
         return $this->getReplaceTemplate($sr, "main");
@@ -67,7 +67,7 @@ abstract class Modules {
         $poll = $this->poll->getRandomElements(1);
         $poll = $poll[0];
         $variants = $this->poll_variant->getAllOnPollID($poll["id"]);
-        $sr["title"] = $poll["title"];        
+        $sr["title"] = $poll["title"];
         for ($i = 0; $i < count($variants); $i++) {
             $new_sr["title"] = $variants[$i]["title"];
             $new_sr["id"] = $variants[$i]["id"];

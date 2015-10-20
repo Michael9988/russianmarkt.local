@@ -216,7 +216,7 @@ body{
 #topmenu .masters{
     color: #ffffff;
     display: inline-block;    
-    padding: 12px 10px 7px 10px;
+    padding: 12px 10px 7.5px 10px;
     text-decoration: none;    
     font-size: 88%;
 }
@@ -241,7 +241,8 @@ hr{
 }   
 
 .banner{
-    border: 1px solid #000;
+    border: 1px solid #437c59;
+    border-radius: 5px;
     margin: 10px auto 0;
     width: 150px;
 }

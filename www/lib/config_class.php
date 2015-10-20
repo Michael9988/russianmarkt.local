@@ -4,11 +4,14 @@ class Config {
 
     var $sitename = "RussianMarkt.Local";
     var $address = "http://russianmarkt.local/";
+    //var $address = "http://x99902j8.bget.ru/";
     var $secret = "dog9999";
     var $host = "localhost";
-    var $db = "mybase";
-    var $db_prefix = "lesson_";
+    var $db = "russianmarkt";
+    //var $db = "x99902j8_shop";
+    var $db_prefix = "rmkt_";
     var $user = "root";
+    //var $user = "x99902j8_shop";
     var $password = "";
     var $admname = "Михаил Колесник";
     var $admemail = "felix9988@mail.ru";

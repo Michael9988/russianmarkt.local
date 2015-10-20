@@ -24,7 +24,7 @@
                 panelclass: 'panel', //class of panel DIVs each holding content
                 autostep: {enable: true, moveby: 1, pause: 3000},
                 panelbehavior: {speed: 500, wraparound: true, wrapbehavior: 'slide', persist: true},
-                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/green_left.png', 0, 125], rightnav: ['img/green_right.png', -43, 125]},
+                defaultbuttons: {enable: true, moveby: 1, leftnav: ['img/green_left.png', 0, 145], rightnav: ['img/green_right.png', -43, 145]},
                 statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
                 contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
             })

@@ -12,9 +12,9 @@
 .brands_by_category a{text-decoration:none;border-bottom:1px solid #919191;color:#484848}
 .brands_by_category .selected a{border-color:#b280d5;color:#fff}
 .brands-group{overflow:hidden;padding:0 0 30px}
-.brands-group .column{float:left;width:250px}
-.brands-group>div{border-top:1px solid #f2eff2;padding:15px 0;display:inline-block;width:100%;*display:inline;*zoom:1}
-.brands-group .digits{float:left;width:80px;margin:0;letter-spacing:-2px;font-size:32px;line-height:1}
+.brands-group .column{float:left;width:215px}
+.brands-group>div{border-top:1px solid #f2eff2;padding:15px 0;display:inline-block;width:925px;*display:inline;*zoom:1}
+.brands-group .digits{float:left;width:65px;margin:0;letter-spacing:-2px;font-size:32px;line-height:1}
 .brands-group .digits a{color:#a3150e;text-decoration:none}
 .brands-group ul{width:100%}
 .brands-group li{display:block;padding:1px 0 0 25px}

@@ -29,6 +29,7 @@
 .stepcarousel .panel img{
     width: 720px;
     height: 360px;
+    border-radius: 0 0 5px 5px;
 }
 
 span.paginatecircle{ /* CSS for paginate circle spans. Required */

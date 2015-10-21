@@ -253,10 +253,16 @@ hr{
 }   
 
 .banner{
+    background-size: cover;        
+    overflow: hidden;    
+    margin: 10px auto 0;
+    width: 100%;
+ }
+
+.banner img{
     border: 1px solid #437c59;
     border-radius: 5px;
-    margin: 10px auto 0;
-    width: 150px;
+    width: 99%;      
 }
 
 #footer{

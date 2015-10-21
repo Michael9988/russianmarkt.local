@@ -27,124 +27,28 @@
                     <div class="column">
                         <div>
                             <ul>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.13924.02%20TANDEM">
-                                        02 TANDEM
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3885.1001%20Miles">
-                                        1001 Miles
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3497.18CRR81%20CERRUTI">
-                                        18CRR81 CERRUTI
-                                    </a>
-                                </li>                            
-                                <li>
-                                    <a href="https://www.wildberries.by/1.16443.3DMEN">
-                                        3DMEN
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.14155.40%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C">
-                                        40 недель
-                                    </a>
-                                </li>
+                               %menu%
                             </ul>
                         </div>
                     </div>
                     <div class="column">
                         <div>
                             <ul>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.13924.02%20TANDEM">
-                                        02 TANDEM
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3885.1001%20Miles">
-                                        1001 Miles
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3497.18CRR81%20CERRUTI">
-                                        18CRR81 CERRUTI
-                                    </a>
-                                </li>                            
-                                <li>
-                                    <a href="https://www.wildberries.by/1.16443.3DMEN">
-                                        3DMEN
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.14155.40%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C">
-                                        40 недель
-                                    </a>
-                                </li>
+                                %menu%
                             </ul>
                         </div>
                     </div>
                     <div class="column">
                         <div>
                             <ul>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.13924.02%20TANDEM">
-                                        02 TANDEM
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3885.1001%20Miles">
-                                        1001 Miles
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3497.18CRR81%20CERRUTI">
-                                        18CRR81 CERRUTI
-                                    </a>
-                                </li>                            
-                                <li>
-                                    <a href="https://www.wildberries.by/1.16443.3DMEN">
-                                        3DMEN
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.14155.40%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C">
-                                        40 недель
-                                    </a>
-                                </li>
+                               %menu%
                             </ul>
                         </div>
                     </div>
                     <div class="column">
                         <div>
                             <ul>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.13924.02%20TANDEM">
-                                        02 TANDEM
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3885.1001%20Miles">
-                                        1001 Miles
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.3497.18CRR81%20CERRUTI">
-                                        18CRR81 CERRUTI
-                                    </a>
-                                </li>                            
-                                <li>
-                                    <a href="https://www.wildberries.by/1.16443.3DMEN">
-                                        3DMEN
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.wildberries.by/1.14155.40%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C">
-                                        40 недель
-                                    </a>
-                                </li>
+                                %menu%
                             </ul>
                         </div>
                     </div>

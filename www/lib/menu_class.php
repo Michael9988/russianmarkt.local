@@ -7,7 +7,8 @@ class Menu extends GlobalClass {
     public function __construct($db) {
         parent::__construct("menu", $db);
     }
-
+    
+   
 }
 
 ?>

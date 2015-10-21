@@ -30,10 +30,13 @@ abstract class Modules {
         $this->article = new Article($db);
         $this->section = new Section($db);
         $this->user = new User($db);
-        $this->menu = new Menu($db);
+        
         $this->banner = new Banner($db);
+        
         $this->message = new Message();
+        
         $this->data = $this->secureData($_GET);
+        $this->menu = new Menu($db);
         $this->user_info = $this->getUser();
         $this->poll = new Poll($db);
         $this->poll_variant = new PollVariant($db);

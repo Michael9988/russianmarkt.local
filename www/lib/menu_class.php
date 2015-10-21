@@ -8,7 +8,9 @@ class Menu extends GlobalClass {
         parent::__construct("menu", $db);
     }
     
-   
+    public function getAllSortTitle() {
+        return $this->getAll("title", FALSE);
+    }
 }
 
 ?>
